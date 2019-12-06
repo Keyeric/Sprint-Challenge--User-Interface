@@ -4,7 +4,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0 5%;
-    border: 1px solid blue;
+    border: 0;
     max-width: 100%;
     font-size: 100%;
     vertical-align: baseline;
@@ -194,6 +194,23 @@ nav a {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.about-idea {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding-right: 10%;
+}
+
+.about-idea div {
+    width: 40%;
+}
+
+.about-idea div button {
+    padding: 0 5%;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 footer {
