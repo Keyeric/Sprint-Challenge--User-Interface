@@ -3,8 +3,8 @@
 * {
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
-    border: 0;
+    margin: 0 5%;
+    border: 1px solid blue;
     max-width: 100%;
     font-size: 100%;
     vertical-align: baseline;
@@ -81,6 +81,22 @@ p {
     line-height: 1.4;
 }
 
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding-top: 1%;
+}
+
+.traffic {
+    display: flex;
+    justify-content: center;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -88,8 +104,7 @@ p {
 
 .top-content {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -125,6 +140,46 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .boxOne {
+    background-color: teal;
+}
+
+.middle-content .boxes .boxTwo {
+    background-color: ;
+}
+
+.middle-content .boxes .boxThree {
+    background-color: ;
+}
+
+.middle-content .boxes .boxFour {
+    background-color: ;
+}
+
+.middle-content .boxes .boxFive {
+    background-color: ;
+}
+
+.middle-content .boxes .boxSix {
+    background-color: ;
+}
+
+.middle-content .boxes .boxSeven {
+    background-color: ;
+}
+
+.middle-content .boxes .boxEight {
+    background-color: ;
+}
+
+.middle-content .boxes .boxNine {
+    background-color: ;
+}
+
+.middle-content .boxes .boxTen {
+    background-color: teal;
 }
 
 .bottom-content {
